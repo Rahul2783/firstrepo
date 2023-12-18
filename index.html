@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ctrl/ is use for comment the one line -->
+    <h1>This is headline.</h1>
+    <h2>This is headline.</h2>
+    <h3>This is headline.</h3>
+    <h4>This is headline.</h4>
+    <h5>This is headline.</h5>
+    <h6>This is headline.</h6>
+    <p>This is paragraph.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Minus, odit, reiciendis alias libero neque, quibusdam officiis tenetur 
+        consequatur quis porro ratione recusandae deleniti nihil sit 
+        exercitationem culpa vero earum eveniet?</p>
+    <br>
+    <!-- link tags  -->
+    <!-- Example of absolute link -->
+    <hr>
+    <a href="https://codewithharry.com">click here to go to harry website</a><br>
+    <!-- Example of relative link -->
+    <hr>
+    <a href="about.html">Go to about</a><br>
+
+    <!-- image tags -->
+    <hr>
+    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" alt="Tree image" width="520p"><br>
+    <hr>
+    <img src="image.jfif" alt="Nature" width="520"><br>
+    <hr>
+
+    <b>
+        This is bold.
+    </b><br><hr>
+    <i>
+        This is italic.
+    </i><br><hr>
+    <u>This is under line.</u>
+    <br><hr>
+    <big>
+        This is big.
+    </big><br><hr>
+    <small>
+        This is small.
+    </small><br><hr>
+    <p>CO<sub>2</sub></p><hr>
+    <p> ax<sup>2</sup> + bx + c</p><hr>
+    <pre>
+        #include<iostream>
+            #include<ctime>
+            using namespace std ;
+            int main()
+            {
+                time_t t = time(nullptr);
+                tm tm=*localtime(&t);
+                int hour =tm.tm_hour ;
+                if (hour >= 5 && hour <12 ){
+                    cout<<"gm";
+                }
+                else if (hour >=12 && hour <17 ) 
+                {
+                    cout<<"gaf";
+                }
+                else{
+                    cout<<"gn";
+                }
+            }
+    </pre>
+
+
+</body>
+</html>
